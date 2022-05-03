@@ -1,0 +1,327 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:sans-serif;
+    marker: none;
+    background-color: transparent;
+   
+}
+
+.grid-header-index {
+    display: grid;
+    grid-template-areas: "logo-header nav nav nav nav";
+    
+}
+header {
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+header nav {
+    
+    height: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+        
+}
+nav {
+    margin-left: 50px;
+    margin-right: 50px; 
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: transparent;
+    text-decoration: none;
+}
+.header-ul {
+    list-style-type: none;
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.navbar {
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #00002e;
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+@media screen and (min-width: 1200px)
+{
+    .grid-body-index {
+    background: linear-gradient(to bottom right, #7a9efb, #cbd4ec);
+    display: grid;
+    width: 100%;
+    height: auto;
+
+
+    grid-template-areas: "logo-header nav nav nav"
+                    "main main main main"
+                    "main main main main"
+                    "footer footer footer footer";
+}
+}
+@media screen and (max-width: 1200px) {
+    .grid-body-index {
+    background: linear-gradient(to bottom right, #7a9efb, #cbd4ec);
+    display: wrap;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: justify;
+
+
+    grid-template-areas: "logo-header nav nav nav"
+                    "main main main main"
+                    "main main main main"
+                    "footer footer footer footer";
+    }
+   header {
+        transform: scale(0,6);
+        display: wrap;
+        width: 900px;
+        height: auto;
+        grid-area: nav;
+        
+    }
+    .logo-header {
+        display: wrap;
+        transform: scale(0,5);
+        width: 100px;
+        height: auto;
+        grid-area: logo-header;
+    }
+    
+}
+
+@media  screen and (min-width: 1200px) {
+    
+
+    .grid-main-index {
+        display: grid;
+        grid-template-areas: "none none h1 none none"
+                         "none none imagen-index none none"
+                         "text text text text text text"
+                         "none img none img none img none"
+                         none text none text none text none;
+        grid-area: main;
+        background: linear-gradient(to bottom right, #7a9efb, #cbd4ec);
+}
+}
+.imagen-index {
+    display: grid;
+    grid-area: imagen-index;
+
+}
+
+.logo-header {
+    display: inline;
+    width: auto;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    
+}
+#pie {
+    text-decoration: none;
+    background-color: transparent;
+    height: 100px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "pie_div" "none" "none" "pie_ul";
+    grid-area: footer;
+}
+.pie_a {
+    background-color:#96b3ff;
+    max-height: auto;
+    max-width: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pie_ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+/*Index*/
+main {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 50px;
+    font-size: larger;
+    border: solid black;    
+    display: inline-block;
+    text-align: justify;
+}
+
+main div {
+    margin: 30px;
+    font-size: x-large;
+    background-color: transparent;
+    
+}
+
+main div img {
+    width: 400px;
+    height: 250px;
+}
+h1 {
+    font-size: x-large;
+    margin: 50px 20px 0px 20px;
+    text-align: center;
+    display: block;
+}
+.p-index {
+    width: 70%;
+    height: auto;
+}
+.p-article-index {
+    width: auto;
+    height: auto;
+}
+
+/*--Posventa--*/
+.grid-body-posventa {
+    background: linear-gradient(to bottom right, #7a9efb, #cbd4ec);
+    text-align: center;
+    align-items: center;
+}
+article.posventa {
+    text-align: center;
+}
+.fieldset-posventa {
+    align-items:center
+}
+.textarea-posventa {
+    height: 100px;
+    width: 100px;
+}
+.main-posventa {
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    padding: 25px;
+    margin: 15px;
+}
+
+.h1-posventa {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+}
+
+/*--Vehiculos--*/
+.grid-body-vehiculos {
+    background: linear-gradient(to bottom right, #7a9efb, #cbd4ec);
+}
+main div {
+    display: block;
+}
+.section-vehiculos {
+    display: grid;
+    margin: 50px;
+    text-align: center;
+    border: #00002e solid;
+    height: 100%;
+
+}
+.h1-vehiculos {
+    display: grid;
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px;
+    padding: 5px;
+
+}
+.main-vehiculos {
+    display: grid;
+    grid-template-areas:   
+     "h1-vehiuculos"
+           
+     "img"
+     
+     "p.vehiculos1 p.vehiculos2 p.vehiculos3"
+      
+     "img"
+     
+     "p.vehiculos4 p.vehiculos5 p.vehiculos6";
+
+    font-size: large;
+    padding: 25px;
+    margin: 15px;
+    border: none;
+}
+.p-vehiculos {
+    border: #00002e solid;
+    display: grid;
+    grid-area: text;
+}
+
+.h2-vehiculos {
+    text-align: center;
+    font-size: x-large;
+    align-items: center;
+}
+/*--Planes--*/
+.grid-body-planes {
+    background: linear-gradient(to bottom right, #7a9efb, #cbd4ec);
+}
+.article-planes {
+    text-align: center;
+    align-items: center;
+
+}
+.fieldset-planes {
+    text-align: center;
+    align-items: center;
+}
+.h1-planes {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+}
+.main-planes {
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    padding: 25px;
+    margin: 15px;
+}
+/*sucursales*/
+.grid-body-sucursales {
+    background: linear-gradient(to bottom right, #7a9efb, #cbd4ec);
+}
+.main-sucursales {
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    padding: 25px;
+    margin: 20px;
+}
+.h1-sucursales {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    padding: 15px;
+}
