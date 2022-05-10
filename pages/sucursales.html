@@ -4,23 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Sucursales</title>
 </head>
 <body class="grid-body-sucursales">
     <header>
-        <nav>
-            <div class="logo-header">
-                <a href="../index.html"><img src="../asset/images/ford-logo-header.png" alt="logo-header" ></a>
+        <nav class="nav">
+            <div class="nav__container">
+                <h2 class="nav__logo"> <img src="../asset/images/ford-logo-header.png" alt="nav__logo">  </h2>
+                <label for="menu" class="nav__label">
+                    <img src="../asset/images/menu__nav.svg" alt="menu__nav" class="nav__img">
+                </label>
+                <input type="checkbox" id="menu" class="nav__input">
+            
+                <div class="nav__menu">
+                    <a href="../index.html" class="nav__item">Inicio</a>
+                    <a href="../pages/vehiculos.html" class="nav__item">Vehículos</a>
+                    <a href="../pages/planes.html" class="nav__item">Planes</a>
+                    <a href="../pages/sucursales.html" class="nav__item">Sucursales</a>
+                    <a href="../pages/posventa.html" class="nav__item">Posventa</a>    
+                </div>
             </div>
-            <ul class="header-ul">
-                <a class="navbar" href="vehiculos.html">Vehículos</a>
-                <a class="navbar" href="planes.html">Planes</a>
-                <a class="navbar" href="sucursales.html">Sucursales</a>
-                <a class="navbar" href="posventa.html">Posventa</a>
-            </ul>
         </nav>
-       
     </header>
     <main class="main-sucursales">
         <div> <h1 class="h1-sucursales"> Encontra nuestro salon de venta y atencion mas cercano</h1></div>
