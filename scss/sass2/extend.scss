@@ -1,0 +1,15 @@
+@import "../variables/variables.scss";
+body {
+    background-color: $background; 
+    font-size: $font-size-mobile     
+}
+h1 {
+    text-align: $center;
+
+}
+.header-footer {
+    height: $altura;
+    width: $ancho;
+    color: $white;
+    
+}

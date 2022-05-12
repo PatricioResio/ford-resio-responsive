@@ -1,0 +1,51 @@
+@import "../variables/variables";  
+
+@mixin nav__menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
+
+}
+@mixin nav {
+    background-color:  #011b5c; 
+    height: 150px;
+    color: $white;  
+}
+
+@mixin nav__img {
+    width: 70px;
+    height: 70px;
+    margin-right: 5%;
+}
+
+@mixin nav__container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0%;
+}
+
+@mixin nav__logo {
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-right: 30px;
+    
+}
+
+@mixin nav__menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
+    padding-right:80px;
+}
+
+@mixin nav__item {
+    color: #cbd4ec;
+    text-decoration: none;
+    --clippy: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
