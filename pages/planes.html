@@ -7,64 +7,119 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Planes</title>
 </head>
+
 <body class="grid-body-planes">
+    
     <header>
+       
         <nav class="nav">
+       
             <div class="nav__container">
+       
                 <h2 class="nav__logo"> <img src="../asset/images/ford-logo-header.png" alt="nav__logo">  </h2>
+       
                 <label for="menu" class="nav__label">
+       
                     <img src="../asset/images/menu__nav.svg" alt="menu__nav" class="nav__img">
+       
                 </label>
+       
                 <input type="checkbox" id="menu" class="nav__input">
             
                 <div class="nav__menu">
+       
                     <a href="../index.html" class="nav__item">Inicio</a>
+       
                     <a href="../pages/vehiculos.html" class="nav__item">Vehículos</a>
+       
                     <a href="../pages/planes.html" class="nav__item">Planes</a>
+       
                     <a href="../pages/sucursales.html" class="nav__item">Sucursales</a>
+       
                     <a href="../pages/posventa.html" class="nav__item">Posventa</a>    
+       
                 </div>
+       
             </div>
+       
         </nav>
+    
     </header>
-    <main class="main-planes">
-        <div><h1 class="h1-planes">Selecciona el plan mas adecuado para vos</h1></div>
-        <article class="article-planes">
+    
+    <main class="main__planes">
+       
+        <div class="h1__planes"><h1 >Selecciona el plan mas adecuado para vos</h1></div>
+       
+        <article class="article__planes">
+       
             <form>
-                <fieldset class="fieldset-planes">
+       
+                <fieldset class="fieldset__planes">
+       
                     <legend>Formulario de Plan</legend>
+       
                     <div>Escriba aquí sus datos de contacto</div>
+       
                     <label for="nombre_apellido">Nombre:</label>
+       
                     <input type="text" name="nombre" placeholder="escriba aqui su nombre">
+       
                     <label for="nombre_apellido">Apellido</label>
+       
                     <input type="text" name="apellido" placeholder="escriba aqui su apellido">
+       
                     <label for="numero_telefono">Telefono</label>
+       
                     <input type="text" name="telefono" placeholder="Numero de telefono">
+       
                     <label for="mail">Mail</label>
+       
                     <input type="email" name="mail" placeholder="Direccion de mail">
-                    
+       
                     <select name="Vehiculo">
+       
                         <option value="seleccionar">Seleccionar su vehiculo</option>
+       
                         <option value="Auto-naranja">Auto Naranja</option>
+       
                         <option value="Auto-Negro">Auto Negro</option>
+       
                         <option value="Auto-Azul">Auto Azul</option>
+
+                        <option value="Auto-Azul">Auto Blanco</option>
+       
                         <option value="Pickup-Celeste">Pickup Celeste</option>
+       
                         <option value="Pickup-roja">Pickup Roja</option>
+       
                         <option value="PickUp-Azul">Pickup Azul</option>
+                        
+                        <option value="PickUp-Azul">Pickup Blanca</option>
+       
                     </select>
+       
                     <div>Elija su plan y nosotros le contactaremos desde la sucursal que mas cercana</div>
+       
                     <div>
                         
                         ¿Sus datos son correctos?
-                    <input type="checkbox" name="check">
+       
+                        <input type="checkbox" name="check">
+       
                     </div>
+       
                     <input type="submit" value="Enviar formulario">
+       
                     <input type="reset" value="Limpiar formulario">
     
                 </fieldset>
+    
             </form>
+    
         </article>
+    
     </main>
+    
     <footer id="pie">
        
         <div class="pie_div">

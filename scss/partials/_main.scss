@@ -5,7 +5,7 @@
 .main__index {
     display: flex;
     flex-basis: 100%;
-    justify-items: center;
+    justify-items: space-between;
     align-items: center;
     margin: 50px;
     font-size: 100%;
@@ -29,17 +29,25 @@
 /**--vehiculos**/
 
 .main__vehiculos {
-    justify-content: center;
-    
+    display: flex;
+    flex-basis: 100%;
+    justify-items: space-between;
+    align-items: center;
+    margin: 50px;
+    font-size: 100%;
+    border: solid #011b5c;    
+    display: inline-block;
+    text-align: justify;
+    padding: 15px;
 }
 
 .article__vehiculos {
     box-sizing: border-box;
-    border: #011b5c solid;
     margin: 20px;
-    width: 90%;
+    width: 85%;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
 .section__vehiculos__1 {
@@ -57,7 +65,7 @@
 .div__article__vehiculos {
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
@@ -129,8 +137,42 @@
         grid-column: 1;
     }
 
+
+
 // Sucursales
-.main__index {
+.main__sucursales {
+    display: flex;
+    flex-basis: 100%;
+    justify-items: space-between;
+    align-items: center;
+    margin: 50px;
+    font-size: 100%;
+    border: solid #011b5c;    
+    display: inline-block;
+    text-align: justify;
+    padding: 15px;
+}
+.section__sucursales {
+    text-align: center;
+    align-items: center;
+}
+.fieldset__sucursales {
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    padding-top: 10px;
+}
+.article__sucursales {
+    margin: 30px;
+    width: 90%;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+
+// Posventa
+.main__posventa {
     display: flex;
     flex-basis: 100%;
     justify-items: center;
@@ -142,42 +184,19 @@
     text-align: justify;
     padding: 15px;
 }
-.section__index {
+.section__posventa {
     text-align: center;
     align-items: center;
 }
-.article__index {
+.article__posventa {
     margin: 50px;
     padding-top: 10px;
 }
-.p__index {
+.p__posventa {
     margin-top: 20px;
 }
 
-// Posventa
-.main__index {
-    display: flex;
-    flex-basis: 100%;
-    justify-items: center;
-    align-items: center;
-    margin: 50px;
-    font-size: 100%;
-    border: solid #011b5c;    
-    display: inline-block;
-    text-align: justify;
-    padding: 15px;
-}
-.section__index {
-    text-align: center;
-    align-items: center;
-}
-.article__index {
-    margin: 50px;
-    padding-top: 10px;
-}
-.p__index {
-    margin-top: 20px;
-}
+
 
 // planes
 .main__planes {
@@ -192,14 +211,45 @@
     text-align: justify;
     padding: 15px;
 }
-.section__index {
+.fieldset__planes {
     text-align: center;
     align-items: center;
+    justify-content: space-between;
 }
-.article__index {
+.article__planes {
     margin: 50px;
     padding-top: 10px;
 }
-.p__index {
+.p__planes {
+    margin-top: 20px;
+}
+
+
+
+// posventa
+.main__posventa {
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-basis: 100%;
+    justify-items: space-between;
+    align-items: center;
+    margin: 50px;
+    font-size: 100%;
+    border: solid #011b5c;    
+    display: inline-block;
+    text-align: justify;
+    padding: 15px;
+}
+.article__posventa {
+    align-items: center;
+    margin: 50px;
+    padding-top: 10px;
+}
+.fieldset__posventa {
+    text-align: center;
+    align-items: center;
+}
+.p__posventa {
     margin-top: 20px;
 }
