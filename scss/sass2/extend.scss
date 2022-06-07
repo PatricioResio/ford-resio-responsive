@@ -1,8 +1,10 @@
 @import "../variables/variables.scss";
+
 body {
-    background-color: $background; 
-    font-size: $font-size-mobile     
+    background-color: $background;
+    font-size: $font-size-mobile
 }
+
 h1 {
     text-align: $center;
 

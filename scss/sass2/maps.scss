@@ -1,12 +1,13 @@
 @import "../variables/variables.scss";
 
-$nav:(
+$nav: (
     color: $white,
     centro: $center,
     fondo: $fondo_nav,
     ancho: $ancho,
 
 );
+
 nav {
     color: map-get($nav, color);
     background-color: map-get($nav, fondo);

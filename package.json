@@ -21,5 +21,6 @@
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
   },
-  "description": "Es un proyecto de sitio web, en base a la marca FORD, la cual debería funcionar para los servicios de la misma"
+  "description": "Es un proyecto de sitio web, en base a la marca FORD, la cual debería funcionar para los servicios de la misma",
+  "devDependencies": {}
 }
